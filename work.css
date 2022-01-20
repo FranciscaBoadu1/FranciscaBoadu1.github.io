@@ -1,0 +1,169 @@
+body {
+    background-color: darkgrey;
+}
+
+.navbar ul {
+    margin: 0;
+     list-style-type:none;
+    padding: 0;
+    text-align: right;
+    background-color: blueviolet;
+
+}
+
+.navbar ul li {
+    display: inline;
+    text-align: center;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blueviolet;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+}
+
+.box1, .box2, .box3 {
+    flex: 1;
+}
+
+
+.box1 h1{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+.box2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p {
+    margin:0;
+}
+
+.boxhd,.boximg {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.boxpic {
+    flex: 1;
+    text-align: center;
+    margin: 40px;
+}
+
+.boxpic img {
+    width: 200px;
+}
+.boximg{
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+}
+.boximg img{
+    width: 400px;
+}
+
+
+
+
+
+
+
+.box-foot{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.foot-list ul li a{
+    color: white;
+    text-decoration: none;   
+}
+.foot-list ul {
+    list-style-type: none;
+}
+
+.foot-list{
+    display: inline-block;
+    width: 33%;
+}
+
+.foot-last p{
+    display: inline-block;
+    width: 49%;
+} 
+
+.text2{
+    text-align: right;
+}
+
+.foot-last{
+    background-color: #273443;
+}
+body{
+    background-color: blue;
+}
+
+.about .box1{
+text-align: center;
+}
+.about .box5 img{
+    width: 200%;
+}
+.box6 img{
+    width: 100%;
+}
+
+.gallary .container{
+    display: flex;
+    flex: 1;
+}
+.box7,.box8,.box9{
+    width: 100%;
+}
+
+.boxfb{
+    background-image: url(images/IMG-20211108-WA0057.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 500px;
+    padding-bottom: 200px;
+    color: rgb(0, 14, 139);
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 90px;
+    margin-bottom: 90px;
+  
+}
+
+.box2{
+    display: flex;
+}
+
+.box2 img {
+    width: 450px;
+    margin-right: 10px;
+}
+
+.container img{
+    width: 450px;
+}
+.container{
+    font-size: 30px;
+}
+
+
+
